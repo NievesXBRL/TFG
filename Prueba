@@ -22,5 +22,3 @@ elementFormDefault="qualified">
 <instant>2002-06-30</instant>
 </period>
 </numericContext>
-<ci:netCashFlowsOperatingActivitiesIndirect.netIncome numericContext="NC1" label="Net"
-<income>7.829E9</ci:netCashFlowsOperatingActivitiesIndirect.netIncome>
