@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl 
+xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2016-01-01" 
+xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2022-01-01" 
+xmlns:pgc07n-etcpn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/patrimonioNeto/B/EstadoTotalCambiosPatrimonioNeto/2022-01-01" 
+xmlns:pgc-07-c-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-base/2022-01-01" 
+xmlns:pgc-07-n="http://www.icac.meh.es/es/fr/gaap/pgc07/normal/2022-01-01" 
+xmlns:pgc07cbs-dpn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2022-01-01" 
+xmlns:pgc-07-c-na="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-normalabreviado/2022-01-01" 
+xmlns:pgc07mc-apdo0="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/apartado0/IdentificacionGeneral/2022-01-01" 
+xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2022-01-01" 
+xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2016-01-01" 
+xmlns:pgc-07-n-fe="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/flujosefectivo/2022-01-01" 
+xmlns:pgc07n-d-vs="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2022-01-01" 
+xmlns:link="http://www.xbrl.org/2003/linkbase" 
+xmlns:pgc-07-n-pyg="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/PerdidasGanancias/2022-01-01" 
+xmlns:dgi-dat-inf="http://www.xbrl.org.es/es/2008/dgi/gp/dat-inf/2016-01-01" 
+xmlns:pgc07cbs-dvs="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2022-01-01" 
+xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2022-01-01" 
+xmlns:pgc-07-v-n="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/2022-01-01" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:pgc07n-d-pn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2022-01-01" 
+xmlns:pgc-07-n-bal="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/balance/2022-01-01" 
+xmlns:iso4217="http://www.xbrl.org/2003/iso4217" 
+xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2008/dgi/gp/lc-int/2016-01-01" 
+xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2016-01-01" 
+xmlns:xbrldi="http://xbrl.org/2006/xbrldi" 
+xmlns:pgc-07-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/roles/2022-01-01" 
+xmlns:pgc-07-n-pnA="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/patrimonioNeto/A/2022-01-01" 
+xmlns:xbrli="http://www.xbrl.org/2003/instance" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<link:schemaRef xlink:type="simple" 
+xlink:href="https://www.icac.gob.es/sites/default/files/pgc2007/v160/pgc07-normal-completo.xsd"/>
+<xbrli:context id="Y1_2024_apdo0">
+ <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bde.es/xbrl/test">MNRG</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-01-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2023_apdo0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bde.es/xbrl/test">MNRG</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2023-01-01</xbrli:startDate>
+      <xbrli:endDate>2023-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mc-apdo0:IdentificacionEmpresaTupla>
+    <dgi-lc-es:Xcode_IDC.NIF contextRef="Y1_2024_apdo0">NIF</dgi-lc-es:Xcode_IDC.NIF>
+    <dgi-est-gen:IdentifierValue contextRef="Y1_2024_apdo0">N00000000</dgi-est-gen:IdentifierValue>
+    <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2024_apdo0">DS</dgi-lc-es:Xcode_NMT.DS>
+    <dgi-est-gen:LegalNameValue contextRef="Y1_2024_apdo0">MNRG</dgi-est-gen:LegalNameValue>
+    <dgi-lc-es:Xcode_ADL.01 contextRef="Y1_2024_apdo0">01</dgi-lc-es:Xcode_ADL.01>
+    <dgi-est-gen:AddressLine contextRef="Y1_2024_apdo0">CALLE CON NÚMERO</dgi-est-gen:AddressLine>
+    <dgi-est-gen:MunicipalityName contextRef="Y1_2024_apdo0">MADRID</dgi-est-gen:MunicipalityName>
+    <dgi-lc-es:Xcode_RCI.28 contextRef="Y1_2024_apdo0">28</dgi-lc-es:Xcode_RCI.28>
+    <dgi-est-gen:ZipPostalCode contextRef="Y1_2024_apdo0">28000</dgi-est-gen:ZipPostalCode>
+    <dgi-lc-int:Xcode_UN3155.TE contextRef="Y1_2024_apdo0">TE</dgi-lc-int:Xcode_UN3155.TE>
+    <dgi-est-gen:CommunicationValue contextRef="Y1_2024_apdo0">+34910000000</dgi-est-gen:CommunicationValue>
+    <dgi-lc-int:Xcode_UN3155.EM contextRef="Y1_2024_apdo0">EM</dgi-lc-int:Xcode_UN3155.EM>
+    <pgc07mc-apdo0:CommunicationValueEMail contextRef="Y1_2024_apdo0">mnrg@mnrg.es</pgc07mc-apdo0:CommunicationValueEMail>
+  </pgc07mc-apdo0:IdentificacionEmpresaTupla>
+  <pgc07mc-apdo0:ActividadTupla>
+    <dgi-eco-bas:ActivityDescription contextRef="Y1_2024_apdo0">ARTES GRÁFICAS</dgi-eco-bas:ActivityDescription>
+    <dgi-eco-bas:ActivityCodeCNAE2009>
+      <dgi-cnae-09:Xcode_ACC.CNAE.1811 contextRef="Y1_2013_apdo0">1811</dgi-cnae-09:Xcode_ACC.CNAE.1811>
+    </dgi-eco-bas:ActivityCodeCNAE2009>
+  </pgc07mc-apdo0:ActividadTupla>
+  <pgc07mc-apdo0:PersonalAsalariadoTupla>
+    <pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+      <dgi-eco-bas:PermanentContractTotal decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">380</dgi-eco-bas:PermanentContractTotal>
+      <dgi-eco-bas:TemporaryContractTotal decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">25</dgi-eco-bas:TemporaryContractTotal>
+      <dgi-eco-bas:EmployeesDisabilityLevelHigher33Total decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">2</dgi-eco-bas:EmployeesDisabilityLevelHigher33Total>
+    </pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+    <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+        <dgi-eco-bas:Male decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">95</dgi-eco-bas:Male>
+        <dgi-eco-bas:Female decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">70</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+        <dgi-eco-bas:Male decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">150</dgi-eco-bas:Male>
+        <dgi-eco-bas:Female decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">84</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+    </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+  </pgc07mc-apdo0:PersonalAsalariadoTupla>
+  <pgc07mc-apdo0:PersonalAsalariadoTupla>
+    <pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+      <dgi-eco-bas:PermanentContractTotal decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">400</dgi-eco-bas:PermanentContractTotal>
+      <dgi-eco-bas:TemporaryContractTotal decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">20</dgi-eco-bas:TemporaryContractTotal>
+      <dgi-eco-bas:EmployeesDisabilityLevelHigher33Total decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">3</dgi-eco-bas:EmployeesDisabilityLevelHigher33Total>
+    </pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+    <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+        <dgi-eco-bas:Male decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">100</dgi-eco-bas:Male>
+        <dgi-eco-bas:Female decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">8</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+        <dgi-eco-bas:Male decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">120</dgi-eco-bas:Male>
+        <dgi-eco-bas:Female decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">100</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+    </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+  </pgc07mc-apdo0:PersonalAsalariadoTupla>
+  <pgc07mc-apdo0:PresentacionCuentasTupla>
+    <dgi-dat-inf:FinancialStatementsOpeningDate contextRef="Y1_2013_apdo0">2013-01-01</dgi-dat-inf:FinancialStatementsOpeningDate>
+    <dgi-dat-inf:FinancialStatementsClosingDate contextRef="Y1_2013_apdo0">2013-12-31</dgi-dat-inf:FinancialStatementsClosingDate>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2013_apdo0" unitRef="euro">9</dgi-dat-inf:TotalPagesPresented>
+  </pgc07mc-apdo0:PresentacionCuentasTupla>
+  <pgc07mc-apdo0:PresentacionCuentasTupla>
+    <dgi-dat-inf:FinancialStatementsOpeningDate contextRef="Y1_2012_apdo0">2012-01-01</dgi-dat-inf:FinancialStatementsOpeningDate>
+    <dgi-dat-inf:FinancialStatementsClosingDate contextRef="Y1_2012_apdo0">2012-12-31</dgi-dat-inf:FinancialStatementsClosingDate>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2012_apdo0" unitRef="euro">9</dgi-dat-inf:TotalPagesPresented>
+  </pgc07mc-apdo0:PresentacionCuentasTupla>
+  <pgc07mc-apdo0:UnidadesTupla>
+    <dgi-lc-es:Xcode_COT.02 contextRef="Y1_2013_apdo0">02</dgi-lc-es:Xcode_COT.02>
+  </pgc07mc-apdo0:UnidadesTupla>
+</xbrli:xbrl>
