@@ -109,15 +109,15 @@ xlink:href="https://www.icac.gob.es/sites/default/files/pgc2007/v160/pgc07-norma
 <pgc07mc-apdo0:PresentacionCuentasTupla>
     <dgi-dat-inf:FinancialStatementsOpeningDate contextRef="Y1_2024_apdo0">2024-01-01</dgi-dat-inf:FinancialStatementsOpeningDate>
     <dgi-dat-inf:FinancialStatementsClosingDate contextRef="Y1_2024_apdo0">2024-12-31</dgi-dat-inf:FinancialStatementsClosingDate>
-    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2013_apdo0" unitRef="euro">9</dgi-dat-inf:TotalPagesPresented>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2024_apdo0" unitRef="euro">9</dgi-dat-inf:TotalPagesPresented>
   </pgc07mc-apdo0:PresentacionCuentasTupla>
 <pgc07mc-apdo0:PresentacionCuentasTupla>
-    <dgi-dat-inf:FinancialStatementsOpeningDate contextRef="Y1_2023_apdo0">2024-01-01</dgi-dat-inf:FinancialStatementsOpeningDate>
-    <dgi-dat-inf:FinancialStatementsClosingDate contextRef="Y1_2023_apdo0">2024-12-31</dgi-dat-inf:FinancialStatementsClosingDate>
-    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2012_apdo0" unitRef="euro">9</dgi-dat-inf:TotalPagesPresented>
+    <dgi-dat-inf:FinancialStatementsOpeningDate contextRef="Y1_2023_apdo0">2023-01-01</dgi-dat-inf:FinancialStatementsOpeningDate>
+    <dgi-dat-inf:FinancialStatementsClosingDate contextRef="Y1_2023_apdo0">2023-12-31</dgi-dat-inf:FinancialStatementsClosingDate>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2023_apdo0" unitRef="euro">9</dgi-dat-inf:TotalPagesPresented>
   </pgc07mc-apdo0:PresentacionCuentasTupla>
   <pgc07mc-apdo0:UnidadesTupla>
-    <dgi-lc-es:Xcode_COT.02 contextRef="Y1_2013_apdo0">02</dgi-lc-es:Xcode_COT.02>
+    <dgi-lc-es:Xcode_COT.02 contextRef="Y1_2024_apdo0">02</dgi-lc-es:Xcode_COT.02>
   </pgc07mc-apdo0:UnidadesTupla>
   <pgc-07-c-bs:BalanceSituacionVariable decimals="0" contextRef="Y1_2024_Balance" unitRef="euro">0</pgc-07-c-bs:BalanceSituacionVariable>
   <pgc-07-c-bs:ActivoNoCorriente decimals="0" contextRef="Y1_2024_Balance" unitRef="euro">6000000000</pgc-07-c-bs:ActivoNoCorriente>
