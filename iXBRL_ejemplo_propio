@@ -24,8 +24,10 @@ xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2016-01-01"
 xmlns:dgi-cnae-09="http://www.xbrl.org.es/es/2008/dgi/gp/lc-cnae-2009/2016-01-01" 
 xmlns:pgc-07-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/roles/2022-01-01" 
 xmlns:pgc-07-n-pnA="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/patrimonioNeto/A/2022-01-01">
-<header /><body>
-<div style="display: none"><ix:header>
+<header />
+<body>
+<div style="display: none">
+<ix:header>
 <ix:hidden>
 <ix:tuple name="pgc07mc-apdo0:IdentificacionEmpresaTupla">
 <ix:nonNumeric name="dgi-est-gen:IdentifierValue" contextRef="Y1_2024_apdo0">N00000000</ix:nonNumeric>
