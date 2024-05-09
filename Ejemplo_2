@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xbrli:xbrl>
+<xbrli:unit id="EUR">
+  <xbrli:measure>iso0000:EUR</xbrli:measure>
+</xbrli:unit>
+...
+<xbrli:context id="March">
+  <xbrli:entity>
+    <xbrli:identifier scheme="http://www.sec.gov/"> 0000000000</xbrli:identifier>
+  </xbrli:entity>
+<xbrli:period>
+  <xbrli:startDate>2024-03-18</xbrli:startDate>
+  <xbrli:endDate>2024-04-08</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+</xbrli:xbrl>
