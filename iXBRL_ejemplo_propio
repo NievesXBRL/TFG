@@ -122,7 +122,9 @@ xmlns:pgc-07-n-pnA="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/patri
 <ix:nonFraction name="pgc-07-n:ActivoCorrienteInversionesEmpresasGrupoEmpresasAsociadasCortoPlazoValoresRepresentativosDeuda" unitRef="euro" decimals="0">32000000</ix:nonFraction>
 <ix:nonFraction name="pgc-07-n:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentesTesoreria" unitRef="euro" decimals="0">10000000</ix:nonFraction>
 <ix:nonFraction name="pgc-07-n:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentesOtrosActivosLiquidosEquivalentes" unitRef="euro" decimals="0">9000000</ix:nonFraction>
-</ix:hidden><ix:references><link:schemaRef xlink:type="simple" xlink:href="https://www.icac.gob.es/sites/default/files/pgc2007/v160/pgc07-normal-completo.xsd" />
+</ix:hidden>
+<ix:references>
+<link:schemaRef xlink:type="simple" xlink:href="https://www.icac.gob.es/sites/default/files/pgc2007/v160/pgc07-normal-completo.xsd" />
 </ix:references>
 <ix:resources>
 <xbrli:context id="Y1_2024_apdo0">
