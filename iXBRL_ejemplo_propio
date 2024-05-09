@@ -43,27 +43,33 @@ xmlns:pgc-07-n-pnA="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/normal/patri
 <ix:tuple name="pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad">
 <ix:nonFraction name="dgi-eco-bas:PermanentContractTotal" contextRef="Y1_2023_apdo0" unitRef="pure" decimals="0">80</ix:nonFraction>
 <ix:nonFraction name="dgi-eco-bas:TemporaryContractTotal" contextRef="Y1_2023_apdo0" unitRef="pure" decimals="0">20</ix:nonFraction>
-</ix:tuple></ix:tuple>
+</ix:tuple>
+</ix:tuple>
 <ix:tuple name="pgc07mc-apdo0:PersonalAsalariadoTupla">
 <ix:tuple name="pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad">
 <ix:nonFraction name="dgi-eco-bas:PermanentContractTotal" contextRef="Y1_2024_apdo0" unitRef="pure" decimals="0">100</ix:nonFraction>
 <ix:nonFraction name="dgi-eco-bas:TemporaryContractTotal" contextRef="Y1_2024_apdo0" unitRef="pure" decimals="0">10</ix:nonFraction>
-</ix:tuple></ix:tuple><ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
+</ix:tuple>
+</ix:tuple><ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsOpeningDate" contextRef="Y1_2024_apdo0">2024-01-01</ix:nonNumeric>
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsClosingDate" contextRef="Y1_2024_apdo0">2024-12-31</ix:nonNumeric>
 <ix:nonFraction name="dgi-dat-inf:TotalPagesPresented" contextRef="Y1_2024_apdo0" unitRef="euro" decimals="0">3</ix:nonFraction>
-</ix:tuple><ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
+</ix:tuple>
+<ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsOpeningDate" contextRef="Y1_2023_apdo0">2023-01-01</ix:nonNumeric>
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsClosingDate" contextRef="Y1_2023_apdo0">2023-12-31</ix:nonNumeric>
 <ix:nonFraction name="dgi-dat-inf:TotalPagesPresented" contextRef="Y1_2023_apdo0" unitRef="euro" decimals="0">9</ix:nonFraction>
-</ix:tuple><ix:tuple name="pgc07mc-apdo0:UnidadesTupla" />
+</ix:tuple>
+<ix:tuple name="pgc07mc-apdo0:UnidadesTupla" />
 <ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsOpeningDate" contextRef="Y1_2024_apdo0">2024-01-01</ix:nonNumeric>
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsClosingDate" contextRef="Y1_2024_apdo0">2024-12-31</ix:nonNumeric>
-</ix:tuple><ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
+</ix:tuple>
+<ix:tuple name="pgc07mc-apdo0:PresentacionCuentasTupla">
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsOpeningDate" contextRef="Y1_2023_apdo0">2023-01-01</ix:nonNumeric>
 <ix:nonNumeric name="dgi-dat-inf:FinancialStatementsClosingDate" contextRef="Y1_2023_apdo0">2023-12-31</ix:nonNumeric>
-</ix:tuple><ix:tuple name="pgc07mc-apdo0:UnidadesTupla" />
+</ix:tuple>
+<ix:tuple name="pgc07mc-apdo0:UnidadesTupla" />
 <ix:nonFraction name="pgc-07-n:ActivoNoCorrienteInmovilizadoIntangibleDesarrollo" unitRef="euro" decimals="0">2000000</ix:nonFraction>
 <ix:nonFraction name="pgc-07-n:ActivoNoCorrienteInmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro" decimals="0">300000000</ix:nonFraction>
 <ix:nonFraction name="pgc-07-n:ActivoNoCorrienteInmovilizadoIntangibleInvestigacion" unitRef="euro" decimals="0">50000000</ix:nonFraction>
